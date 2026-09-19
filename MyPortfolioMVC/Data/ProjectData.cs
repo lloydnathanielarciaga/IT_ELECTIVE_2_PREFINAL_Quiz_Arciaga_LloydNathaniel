@@ -15,7 +15,7 @@ namespace MyPortfolioMVC.Data
                 {
                     Id = i,
                     Title = $"",
-                    Description = $"",
+                    Description = $"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                     GitHubLink = $"",
                     ImageUrl = $""
                 });
