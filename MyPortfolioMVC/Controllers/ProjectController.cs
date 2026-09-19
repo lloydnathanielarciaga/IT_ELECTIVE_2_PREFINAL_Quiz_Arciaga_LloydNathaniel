@@ -1,9 +1,11 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using MyPortfolioMVC.Data;
 using MyPortfolioMVC.Models;
 
 namespace MyPortfolioMVC.Controllers
 {
+    [Authorize]
     public class ProjectController : Controller
     {
         public IActionResult Details(int id)
